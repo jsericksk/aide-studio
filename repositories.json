@@ -13,6 +13,13 @@
       "author": "John Cena",
       "description": "Biblioteca útil para dar suporte à zoom-in e zoom-out em imagens.",
       "type": 0
+    },
+    {
+      "url": "https:\/\/github.com\/pedrolemoz\/MagnetLinkCatcher",
+      "project_name": "MagnetLinkCatcher",
+      "author": "Pedro Lemos",
+      "description": "Get magnet links from intermet without any effort.",
+      "type": 0
     }
   ]
 }
