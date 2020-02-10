@@ -1,0 +1,18 @@
+{
+  "repositories": [
+    {
+      "url": "https:\/\/github.com\/tiagohm\/CodeView",
+      "project_name": "CodeView",
+      "author": "John Cena",
+      "description": "Projeto feito para visualizar códigos com destaque de sintaxe e opções úteis para programadores.",
+      "type": 0
+    },
+    {
+      "url": "https:\/\/github.com\/MikeOrtiz\/TouchImageView l",
+      "project_name": "TouchImageView",
+      "author": "John Cena",
+      "description": "Biblioteca útil para dar suporte à zoom-in e zoom-out em imagens.",
+      "type": 0
+    }
+  ]
+}
