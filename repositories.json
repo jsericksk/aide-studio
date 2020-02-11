@@ -15,10 +15,10 @@
       "type": 0
     },
     {
-      "url": "https:\/\/github.com\/pedrolemoz\/MagnetLinkCatcher",
-      "project_name": "MagnetLinkCatcher",
+      "url": "https:\/\/github.com\/pedrolemoz\/CPFGen\/tree\/master\/Java",
+      "project_name": "CPFGen",
       "author": "Pedro Lemos",
-      "description": "Get magnet links from intermet without any effort.",
+      "description": "Gerador de CPFs válidos, escrito em Java. Versão de console.",
       "type": 1
     }
   ]
