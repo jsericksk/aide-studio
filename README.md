@@ -9,14 +9,18 @@ No momento, a única restrição é de que sejam apenas projetos de Java-Android
 
 # Como enviar meus projetos?
 Para enviar seus projetos, você tem duas opções:
-1. Basta que faça um pull request no [arquivo JSON principal](https://github.com/) deste repositório, adicionando um novo JSON Object ao array de repositórios. Esse JSON Object deve ter o mesmo padrão dos anteriores e ser preenchido com os dados apresentados a seguir.
+1. Basta que faça um pull request no [arquivo JSON principal](https://github.com/KPr0jects/AIDEStudio/blob/master/repositories.json) deste repositório, adicionando um novo JSON Object ao array de repositórios. Esse JSON Object deve ter o mesmo padrão dos anteriores e ser preenchido com os dados apresentados a seguir.
 2. Enviando um email para **jsericksk@gmail.com** com os dados informados logo abaixo.
 
 ## Requisitos
 **url:** URL do repositório do seu projeto no GitHub.
+
 **project_name:** O nome do projeto. Você pode usar um título curto ou um nome simples, como preferir.
+
 **author:** O nome do autor do projeto. Se você não for o autor mas quer compartilhar o repositório para outros usuários porque utilizou ele no AIDE com êxito, preencha esse campo com o nome de usuário do repositório.
+
 **description:** Descrição do projeto. Descreva qual é a função dele para que os usuários possam entender facilmente para o que ele serve. Lembre-se que poderão sempre ler o README no repositório (caso exista), mas é importante preencher esse campo com uma descrição clara e objetiva para que possa aparecer no AIDE Studio.
+
 **type:** O tipo de projeto. Os valores disponíveis são 0 e 1. 0 para projetos Java-Android e 1 para projetos Java-Console.
 
 **Nota sobre o nome do projeto e descrição**: Só é permitida a escrita de ambos em 3 idiomas: Inglês, Português e Espanhol. Para atingir um maior número de usuários, é preferível que seja em Inglês, no entanto, você também pode usar o idioma Português ou Espanhol caso seja sua língua nativa.
