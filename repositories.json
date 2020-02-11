@@ -19,7 +19,7 @@
       "project_name": "MagnetLinkCatcher",
       "author": "Pedro Lemos",
       "description": "Get magnet links from intermet without any effort.",
-      "type": 0
+      "type": 1
     }
   ]
 }
