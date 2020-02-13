@@ -27,7 +27,7 @@ To submit your projects, you have two options:
 
 **Note about the name of the project and description**: It is only allowed to fill in these data in 3 languages: English, Portuguese and Spanish. To reach a larger number of users, it is preferable that it be in English, however, you can also use Portuguese or Spanish if it is your native language.
 
-**Sample: **
+**Sample:**
 ```
 {
   "url": "https:\/\/github.com\/username\/repository-name",
