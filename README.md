@@ -1,35 +1,49 @@
-# Compartilhe projetos e ajude outros usuários do AIDE
+# Share projects and help other AIDE users
 
-O AIDE Studio é um app para Android com o intuito de ajudar desenvolvedores que usam o app Android IDE (AIDE) a realizar algumas tarefas de maneira mais ágil, bem como ter alguns recursos extras que o AIDE não oferece nativamente.
-Confira o [AIDE Studio na Play Store](https://play.google.com/store/apps/details?id=com.kproject.aidestudio) para mais informações.
+AIDE Studio is an Android application to help developers using [Android IDE (AIDE)](https://play.google.com/store/apps/details?id=com.aide.ui) perform some tasks more quickly, as well as having some extra features that AIDE does not natively offer.
+Check out [AIDE Studio on the Play Store](https://play.google.com/store/apps/details?id=com.kproject.aidestudio) for more information.
 
-Este pequeno guia destina-se a ensiná-lo como você pode enviar seus projetos para que eles apareçam no AIDE Studio e outros usuários possam baixá-los e conhecê-los.
+This small guide is intended to teach you how you can submit your projects so that they appear in AIDE Studio and other users can download and get to know them.
 
-No momento, a única restrição é de que sejam apenas projetos de Java-Android ou Java-Console, ou seja, projetos de aplicativos Android e projetos de Java para executar no console. É necessário que o projeto tenha sido feito ou testado no AIDE e que, obviamente, funcione.
+At the moment, the only restriction is that they are just Java-Android or Java-Console projects, that is, Android application projects and Java projects to run on the console. It is necessary that the project has been done or tested at AIDE and that it obviously works.
 
-# Como enviar meus projetos?
-Para enviar seus projetos, você tem duas opções:
-1. Basta que faça um pull request no [arquivo JSON principal](https://github.com/KPr0jects/aidestudio/blob/master/repositories.json) deste repositório, adicionando um novo JSON Object ao array de repositórios. Esse JSON Object deve ter o mesmo padrão dos anteriores e ser preenchido com os dados apresentados a seguir.
-2. Enviando um email para **jsericksk@gmail.com** com os dados informados logo abaixo.
+# How to send my projects?
+To submit your projects, you have two options:
+1. Just make a pull request in the [main JSON file](https://github.com/KPr0jects/aidestudio/blob/master/repositories.json) of this repository, adding a new item to the repository array. This item must have the same pattern as the previous ones and be filled with the data presented below.
+2. Sending an email to **jsericksk@gmail.com** with the required data below. You don't have to send in a JSON format if you don't want to.
 
-## Requisitos
-**url:** URL do repositório do seu projeto no GitHub.
+## Requirements
+**url:** URL of your project's repository on GitHub.
 
-**project_name:** O nome do projeto. Você pode usar um título curto ou um nome simples, como preferir.
+**project_name:** The name of the project. You can use a short title or a simple name, as you prefer.
 
-**author:** O nome do autor do projeto. Se você não for o autor mas quer compartilhar o repositório para outros usuários porque utilizou ele no AIDE com êxito, preencha esse campo com o nome de usuário do repositório.
+**author:** The name of the author of the project. If you are not the author but want to share the repository with other users because you used it successfully on AIDE, fill in this field with the repository's username.
 
-**description:** Descrição do projeto. Descreva qual é a função dele para que os usuários possam entender facilmente para o que ele serve. Lembre-se que poderão sempre ler o README no repositório (caso exista), mas é importante preencher esse campo com uma descrição clara e objetiva para que possa aparecer no AIDE Studio.
+**description:** Description of the project. Briefly describe its function so that users can easily understand what it is for. Remember that you can always read the README in the repository (if it exists), but it is important to fill this field with a clear and objective description so that it can appear in AIDE Studio.
 
-**type:** O tipo de projeto. Os valores disponíveis são 0 e 1. 0 para projetos Java-Android e 1 para projetos Java-Console.
+**type:** The type of project. The available values ​​are 0 and 1. 0 for Java-Android projects and 1 for Java-Console projects.
 
-**Nota sobre o nome do projeto e descrição**: Só é permitida a escrita de ambos em 3 idiomas: Inglês, Português e Espanhol. Para atingir um maior número de usuários, é preferível que seja em Inglês, no entanto, você também pode usar o idioma Português ou Espanhol caso seja sua língua nativa.
+**date:** The date the project was added. Always fill in this field with 0. It will be modified containing the current time in milliseconds (corresponding to System.currentTimeMillis() in Java) after the project is approved.
 
-## Quando meu projeto ficará disponível?
-Após enviar seu projeto, ele passará por uma pequena análise e deverá ficar disponível em pelo menos 72 horas. Esse é o tempo máximo para que ele possa ser publicado. Caso exceda esse limite, por algum motivo ele não foi aprovado. Alguns dos motivos que podem fazer seu projeto não ser aprovado são:
-- O projeto não é de Java-Android ou Java-Console.
-- Está totalmente escrito em uma linguagem diferente de Java.
-- É uma biblioteca.
-- Não segue a regra dos idiomas permitidos para o nome do projeto e descrição.
+**Note about the name of the project and description**: It is only allowed to fill in these data in 3 languages: English, Portuguese and Spanish. To reach a larger number of users, it is preferable that it be in English, however, you can also use Portuguese or Spanish if it is your native language.
 
-**Note que a qualidade dos projetos é responsabilidade dos respectivos desenvolvedores. O AIDE Studio não se responsabiliza por eventuais erros de códigos contidos nos projetos enviados.**
+**Sample: **
+```
+{
+  "url": "https:\/\/github.com\/username\/repository-name",
+  "project_name": "RecyclerView Animations",
+  "author": "EricksK",
+  "description": "Project containing useful methods for animating the addition/removal of items from RecyclerView.",
+  "type": 1,
+  "date": 0
+}
+```
+
+## When will my project become available?
+After submitting your project, it will undergo a short review and should be available in at least 72 hours. This is the maximum time for it to be published. If it exceeds this limit, for some reason it has not been approved. Some of the reasons that can cause your project not to be approved are:
+- The project is not Java-Android or Java-Console.
+- It is entirely written in a language other than Java.
+- It's a library.
+- Does not follow the rule of languages ​​allowed for the project name and description.
+
+**Note that the quality of the projects is the responsibility of the respective developers. AIDE Studio is not responsible for any code errors contained in submitted projects.**
