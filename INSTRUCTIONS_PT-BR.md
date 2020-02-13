@@ -25,18 +25,18 @@ Para enviar seus projetos, você tem duas opções:
 
 **date:** A data em que o projeto foi adicionado. Sempre preencha este campo com 0. Ele será modificado contendo o tempo atual em milissegundos (correspondente a System.currentTimeMillis() em Java) após o projeto ser aprovado.
 
-**Nota sobre o nome do projeto e descrição**: Só é permitida a escrita de ambos em 3 idiomas: Inglês, Português e Espanhol. Para atingir um maior número de usuários, é preferível que seja em Inglês, no entanto, você também pode usar o idioma Português ou Espanhol caso seja sua língua nativa.
+**Nota sobre o nome do projeto e descrição**: Só é permitido preencher esses dados em três idiomas: Inglês, Português e Espanhol. Para atingir um maior número de usuários, é preferível que seja em Inglês, no entanto, você também pode usar o idioma Português ou Espanhol caso seja sua língua nativa.
 
-**Exemplo de Envio:**
+**Exemplo:**
 ```
-    {
-      "url": "https:\/\/github.com\/username\/repository-name",
-      "project_name": "RecyclerView Animations",
-      "author": "EricksK",
-      "description": "Project containing useful methods for animating the addition/removal of items from RecyclerView.",
-      "type": 1,
-      "date": 0
-    }
+{
+  "url": "https:\/\/github.com\/username\/repository-name",
+  "project_name": "RecyclerView Animations",
+  "author": "EricksK",
+  "description": "Project containing useful methods for animating the addition/removal of items from RecyclerView.",
+  "type": 1,
+  "date": 0
+}
 ```
 
 ## Quando meu projeto ficará disponível?
