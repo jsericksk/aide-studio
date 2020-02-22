@@ -9,7 +9,7 @@ No momento, a única restrição é de que sejam apenas projetos de Java-Android
 
 # Como enviar meus projetos?
 Para enviar seus projetos, você tem duas opções:
-1. Basta que faça uma pull request no [arquivo JSON principal](https://github.com/KPr0jects/aidestudio/blob/master/repositories.json) deste repositório, adicionando um novo item ao array de repositórios. Esse item deve ter o mesmo padrão dos anteriores e ser preenchido com os dados apresentados a seguir.
+1. Basta que faça uma pull request no [arquivo JSON principal](https://github.com/KPr0jects/aidestudio/blob/master/repositories.json) deste repositório, adicionando um novo item no início do array de repositórios. Esse item deve ter o mesmo padrão dos anteriores e ser preenchido com os dados apresentados a seguir.
 2. Enviando um email para **jsericksk@gmail.com** com os dados requeridos logo abaixo. Você não precisa enviar em um formato JSON se não quiser.
 
 ## Requisitos
@@ -27,15 +27,18 @@ Para enviar seus projetos, você tem duas opções:
 
 **Nota sobre o nome do projeto e descrição**: Só é permitido preencher esses dados em três idiomas: Inglês, Português e Espanhol. Para atingir um maior número de usuários, é preferível que seja em Inglês, no entanto, você também pode usar o idioma Português ou Espanhol caso seja sua língua nativa.
 
-**Exemplo:**
+**Veja um pequeno exemplo abaixo. Lembre-se que você deve adicionar seu projeto no início do JSON e não no final. Novos projetos sempre devem ser adicionados no início.**
 ```
 {
   "url": "https:\/\/github.com\/username\/repository-name",
   "project_name": "RecyclerView Animations",
   "author": "EricksK",
   "description": "Project containing useful methods for animating the addition/removal of items from RecyclerView.",
-  "type": 1,
+  "type": 0,
   "date": 0
+},
+{
+// Other projects
 }
 ```
 
