@@ -9,7 +9,7 @@ No momento, a única restrição é de que sejam apenas projetos de Java-Android
 
 # Como enviar meus projetos?
 Para enviar seus projetos, você tem duas opções:
-1. Basta que faça uma pull request no [arquivo JSON principal](https://github.com/KPr0jects/aidestudio/blob/master/repositories.json) deste repositório, adicionando um novo item no início do array de repositórios. Esse item deve ter o mesmo padrão dos anteriores e ser preenchido com os dados apresentados a seguir.
+1. Basta que faça uma pull request no [arquivo JSON principal](https://github.com/jsericksk/aide-studio/blob/master/repositories.json) deste repositório, adicionando um novo item no início do array de repositórios. Esse item deve ter o mesmo padrão dos anteriores e ser preenchido com os dados apresentados a seguir.
 2. Enviando um email para **jsericksk@gmail.com** com os dados requeridos logo abaixo. Você não precisa enviar em um formato JSON se não quiser.
 
 ## Requisitos
