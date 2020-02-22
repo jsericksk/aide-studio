@@ -9,7 +9,7 @@ At the moment, the only restriction is that they are just Java-Android or Java-C
 
 # How to send my projects?
 To submit your projects, you have two options:
-1. Just make a pull request in the [main JSON file](https://github.com/KPr0jects/aidestudio/blob/master/repositories.json) of this repository, adding a new item to the repository array. This item must have the same pattern as the previous ones and be filled with the data presented below.
+1. Just make a pull request in the [main JSON file](https://github.com/jsericksk/aidestudio/blob/master/repositories.json) of this repository, adding a new item at the beginning of the repository array. This item must have the same pattern as the previous ones and be filled with the data presented below.
 2. Sending an email to **jsericksk@gmail.com** with the required data below. You don't have to send in a JSON format if you don't want to.
 
 ## Requirements
@@ -27,15 +27,18 @@ To submit your projects, you have two options:
 
 **Note about the name of the project and description**: It is only allowed to fill in these data in 3 languages: English, Portuguese and Spanish. To reach a larger number of users, it is preferable that it be in English, however, you can also use Portuguese or Spanish if it is your native language.
 
-**Sample:**
+**See a small example below. Remember that you must add your project at the beginning of JSON and not at the end. New projects should always be added at the beginning.**
 ```
 {
   "url": "https:\/\/github.com\/username\/repository-name",
   "project_name": "RecyclerView Animations",
   "author": "EricksK",
   "description": "Project containing useful methods for animating the addition/removal of items from RecyclerView.",
-  "type": 1,
+  "type": 0,
   "date": 0
+},
+{
+// Other projects
 }
 ```
 
