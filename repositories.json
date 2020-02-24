@@ -1,28 +1,12 @@
 {
   "repositories": [
     {
-      "url": "https:\/\/github.com\/tiagohm\/CodeView",
-      "project_name": "CodeView",
-      "author": "John Test",
-      "description": "Projeto feito para visualizar códigos com destaque de sintaxe e opções úteis para programadores.",
-      "type": 0,
-      "date": 1581623194593
-    },
-    {
-      "url": "https:\/\/github.com\/MikeOrtiz\/TouchImageView",
-      "project_name": "TouchImageView",
-      "author": "John Cena",
-      "description": "Biblioteca útil para dar suporte à zoom-in e zoom-out em imagens.",
-      "type": 0,
-      "date": 1581623194593
-    },
-    {
       "url": "https:\/\/github.com\/pedrolemoz\/CPFGen\/tree\/master\/Java",
       "project_name": "CPFGen",
       "author": "Pedro Lemos",
       "description": "Gerador de CPFs válidos, escrito em Java. Versão de console.",
       "type": 1,
-      "date": 1581738457045
+      "date": 1582582592654
     }
   ]
 }
