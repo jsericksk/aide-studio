@@ -1,7 +1,7 @@
 {
   "repositories": [
     {
-      "url": "https:\/\/github.com\/pedrolemoz\/CPFGen\/tree\/master\/Java",
+      "url": "https:\/\/github.com\/jsericksk\/aide-studio\/raw\/master\/projects\/java-console\/01-cpfgen.zip",
       "project_name": "CPFGen",
       "author": "Pedro Lemos",
       "description": "Gerador de CPFs válidos, escrito em Java. Versão de console.",
