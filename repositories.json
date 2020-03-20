@@ -7,6 +7,14 @@
       "description": "Gerador de CPFs válidos, escrito em Java. Versão de console.",
       "type": 1,
       "date": 1582582592654
+    },
+    {
+      "url": "https:\/\/github.com\/jsericksk\/aide-studio\/raw\/master\/projects\/java-android\/02-searchable-recyclerview.zip",
+      "project_name": "Searchable RecyclerView",
+      "author": "EricksK",
+      "description": "A simple RecyclerView with search option that instantly filters results.",
+      "type": 0,
+      "date": 1584718040074
     }
   ]
 }
