@@ -17,12 +17,12 @@
       "date": 1582582592654
     }
     {
-      "url": "https:\/\/github.com\/jsericksk\/aide-studio\/raw\/master\/projects\/java-android\/03-permisos-en-runtime.zip", 
-      "project_name": "Permisos en Runtime con Bucle Repetitivo", 
+      "url": "https:\/\/github.com\/jsericksk\/aide-studio\/raw\/master\/projects\/java-android\/03-permisos-en-runtime.zip",
+      "project_name": "Permisos en Runtime con Bucle Repetitivo",
       "author": "Antonio Garcia",
-      "description": "Ejemplo de permisos en tiempo de ejecución con el fin de repetir el permisos cada que el usuario le de en cancelar.", 
-      "type": 0, 
-      "date": 0
+      "description": "Ejemplo de permisos en tiempo de ejecución con el fin de repetir el permisos cada que el usuario le de en cancelar.",
+      "type": 0,
+      "date": 1595645827063
     }
   ]
 }
