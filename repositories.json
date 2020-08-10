@@ -1,6 +1,14 @@
 {
   "repositories": [
     {
+      "url": "https://github.com/jsericksk/aide-studio/raw/master/projects/java-android/04-popup-menu.zip", 
+      "project_name": "Popup Menu", 
+      "author": "EricksK", 
+      "description": "A simple popup menu that is shown at the touch of a button.", 
+      "type": 0, 
+      "date": 1597082712314
+    },
+    {
       "url": "https:\/\/github.com\/jsericksk\/aide-studio\/raw\/master\/projects\/java-android\/03-permisos-en-runtime.zip",
       "project_name": "Permisos en Runtime con Bucle Repetitivo",
       "author": "Antonio Garcia",
